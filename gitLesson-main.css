@@ -1,4 +1,37 @@
 /* 15. Turn the h1 green with CSS */
-h1 {
-    color: green;
+/* Parent */
+.headerPart {
+    text-align: left;
+    background-color: white;
+    /* border: 1px solid black */
+}
+
+/* Child */
+.headerPart h1 {
+    color: rgb(0, 128, 107);
+}
+
+/* Child */
+.headerPart img {
+    float: right;
+    position: relative;
+    max-width: 10%;
+    height: auto;
+    bottom: 60px;
+    right: 350px;
+}
+
+.navPart nav {
+    border: 2px solid black;
+    background-color:rgb(0, 128, 107);
+    
+}
+.navPart li{
+    display: inline-block;
+    margin-right: 3px;
+    color: white;
+}
+
+.navPart a {
+    color: white;
 }
