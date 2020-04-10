@@ -3,22 +3,22 @@
 .headerPart {
     text-align: left;
     background-color: white;
+    display: flex;
     /* border: 1px solid black */
 }
 
 /* Child */
 .headerPart h1 {
     color: rgb(0, 128, 107);
+    font-size: 35px;
 }
 
 /* Child */
 .headerPart img {
     float: right;
-    position: relative;
-    max-width: 10%;
-    height: auto;
-    bottom: 60px;
-    right: 350px;
+    width: 125px;
+    height: 68px;
+   
 }
 
 .navPart nav {
